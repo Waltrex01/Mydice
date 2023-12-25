@@ -15,3 +15,11 @@ var randomDiceImage2 = 'images/dice' + randomNumber2 + '.png';
 
 var image2 = document.querySelectorAll('img')[1];
 image2.setAttribute('src', randomDiceImage2);
+
+
+ 
+
+
+ function reload() {
+    window.location.reload();
+ }
